@@ -1,11 +1,15 @@
-import "./App.css";
+import React from 'react';
 
-function App() {
-  return (
-    <div className="w-full  h-screen flex items-center justify-center">
-      <h1 className="text-red-500 text-[4rem]">Welcome</h1>
-    </div>
-  );
+interface Props {
+  
 }
 
-export default App;
+const ComponentName: React.FC<Props> = ({  }) => {
+  return (
+    <div>
+      <h1>Title</h1>
+    </div>
+  );
+};
+
+export default ComponentName;
